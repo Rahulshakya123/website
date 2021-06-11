@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:rgb(36, 33, 34);
+    padding-top:30px;
+    color: darkkhaki;
+    border-bottom: 3px solid red;
+    min-height: 70px;
+}
+
+header a{
+    text-decoration-line: none;
+    display: inline;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: seashell;
+    font-weight: bold;
+}
+ 
+
+
+header li{
+    display: inline;
+    float:left;
+    padding: 0 20px 0px 20px;
+}
+
+header #head{
+    float: left;
+}
+header h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    padding-top: 15px;
+}
+header .highlight, header .current a{
+    color:red;
+}
+header a:hover{
+    color:lightsalmon;
+    font-weight: bold;
+    font-size:;
+}
+
+#showcase{
+    background: url('images/site2.jpg') no-repeat;
+    min-height: 500px;
+    background-size:contain cover;
+}
+ #showcase h1{
+     text-align: center;
+     padding-top: 150px;
+     font-size: 35px;
+     color:mintcream;
+     padding-bottom: 10px;
+ }
+ #showcase p{
+     font-size: 20px;
+     font-weight: bold;
+     color:powderblue;
+ }
+ #newsletter {
+     border-top: 3px solid red;
+     padding-bottom: 15px;
+     color: #ffffff;
+     background:hsl(203, 50%, 44%);
+
+ }
+#newsletter h1{
+    float:left;
+    padding:0 auto 0 auto;
+}
+#newsletter form{
+    float:right;
+    margin-top: 20px;
+}
+
+#newsletter input[type="Email"]{
+    padding: 4px;
+    height: 25px;
+    border-radius: 3px;
+    border: 0;
+}
+.button_1{
+    height: 34px;
+    color:black;
+    background-color: red;
+    border: 0 solid black;
+    padding: 0 20px 0 20px;
+    border-radius: 2px;
+}
+#boxes{
+ margin-top: 30px;
+}
+ #boxes .box{
+     float: left;
+     width: 30%;
+     padding: 10px;
+     text-align: center;
+ }
+
+ .box img{
+     width: 180px;
+     height: 180px;
+ }
+
+
+ /* about us */
+#about-us{
+    float: left;
+    width: 65%;
+    font-size: 15px;
+    text-align: justify;
+    background:  ;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+#about-us p{
+    border: 0px red solid;
+    background-color: rgb(162, 243, 243);
+    text-align:justify;
+    padding:10px 10px 10px 10px;
+}
+ 
+
+ .aside{
+     float:right;
+     width: 30%;
+     margin-top: 74px;
+     background: #35424a;
+     padding:0 10px ;
+     color: white;
+ }
+ .divi{
+     width: 65%;
+     float: left;
+     background-color:#fbe4c6;
+     border: 0px blue solid;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     padding: 0 5px 0 10px;
+    
+ }
+
+ #main{
+     width: 30%;
+     float:right;
+     clear: both;
+     background:hsl(203, 50%, 44%);
+     margin-left: 10px;
+     margin-top: -670px;
+     padding: 0 0 10px 15px;
+     text-align:left;
+ }
+  #main label{
+      font-size: 15px;
+      font-weight: bold;
+      margin: auto;
+      padding: auto;
+  }
+  #main h3{
+      font-size: 25px;
+      font-weight: bolder;
+      text-align: auto;
+      padding: 2px 0 0 2px ;  }
+
+      
+ #main input{
+    padding: 4px;
+    height: 25px;
+    border-radius: 3px;
+    border: 0;
+ }
+ #main textarea{
+    border-radius: 3px;
+    border: 0;
+ }
+ #main button{
+        font-weight: bolder;
+        height: 34px;
+        color:black;
+        background-color: rgb(241, 11, 11);
+        border: 0 solid black;
+        padding: 0 20px 0 20px;
+        border-radius: 2px;
+ }
+
+ 
+ footer{
+     margin: 0;
+     background:red;
+     height: 50px;
+     text-align:center;
+     }
+footer p{
+    padding-top:15px ;
+    
+}
+@media screen and (max-width: 770px) {
+ header #head,
+ header nav,
+ header nav li,
+ #newsletter h1,
+ #newsletter form,
+ #boxes .box{
+     float:none;
+     text-align: center;
+     width: 100%;
+ }
+ header {
+     padding-bottom: 20px;
+ }
+ #showcase h1{
+     /* margin-top: -30px; */
+     padding-top:20px ;
+ }
+ 
+
+  }
